@@ -11,7 +11,7 @@ export function RequestSection() {
   return (
     <section
       id="request"
-      className="section-dark relative py-24 px-4 sm:px-6 overflow-hidden"
+      className="section-dark relative py-28 sm:py-36 px-4 sm:px-6 overflow-hidden"
     >
       {/* Light-to-dark transition at top */}
       <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-[#fafafa] to-transparent z-[1]" />

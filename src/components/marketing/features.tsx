@@ -9,6 +9,8 @@ import {
   ShieldCheck,
   RefreshCw,
   Globe,
+  Camera,
+  CalendarCheck,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -28,29 +30,43 @@ const features: Feature[] = [
     size: "large",
   },
   {
-    icon: Smartphone,
-    title: "モダンなデザイン",
+    icon: Camera,
+    title: "お店の実際の写真を使用",
     description:
-      "スマートフォン・タブレット・パソコン、どのデバイスでも美しく表示。",
+      "ストック写真は使いません。TabelogやInstagramのお店の実際の写真をプロ品質に仕上げて掲載します。",
     size: "small",
   },
   {
     icon: Languages,
-    title: "日本語・英語対応",
+    title: "多言語対応（日・英・中）",
     description:
-      "バイリンガル対応で、外国人のお客さんにもお店の情報を届けられます。",
+      "日本語・英語に加え、中国語にも対応。インバウンドの集客にも対応できます。",
+    size: "small",
+  },
+  {
+    icon: CalendarCheck,
+    title: "予約プラットフォーム連携",
+    description:
+      "TableCheck、OMAKASE、一休など、既存の予約サービスとスムーズに連携。独自の予約フォームは不要です。",
+    size: "small",
+  },
+  {
+    icon: Smartphone,
+    title: "スマートフォン最適化",
+    description:
+      "飲食店検索の70%以上はスマホから。どのデバイスでも美しく、高速に表示されます。",
     size: "small",
   },
   {
     icon: Zap,
-    title: "高速表示",
+    title: "高速表示・SEO対策",
     description:
-      "ページの読み込みが速く、来店されるお客さんを待たせません。SEOにも有利です。",
+      "ページの読み込みが速く、検索エンジンにも強い設計。見つけてもらえるサイトに。",
     size: "small",
   },
   {
     icon: ShieldCheck,
-    title: "SSL暗号化",
+    title: "SSL・セキュリティ標準装備",
     description: "安全な通信を標準装備。安心してアクセスできます。",
     size: "small",
   },
@@ -89,7 +105,7 @@ export function Features() {
   const smallFeatures = features.slice(1);
 
   return (
-    <section className="section-light relative py-24 px-4 sm:px-6">
+    <section className="section-light relative py-28 sm:py-36 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto relative z-10" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

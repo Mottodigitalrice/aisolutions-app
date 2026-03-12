@@ -16,7 +16,7 @@ const problems: ProblemItem[] = [
     icon: AlertCircle,
     title: "ホームページが古いまま",
     description:
-      "何年も前に作ったきり、スマホで見ると崩れている。来店されるお客さんに良い印象を与えられていない。",
+      "何年も前に作ったきり、スマホで見ると崩れている。せっかく検索で見つけてもらっても、お店の良さが伝わらない。",
   },
   {
     icon: Banknote,
@@ -32,9 +32,9 @@ const problems: ProblemItem[] = [
   },
   {
     icon: Users,
-    title: "お店のお客さんを逃しているかも",
+    title: "スマホ検索で選ばれていない",
     description:
-      "検索しても出てこない、見つけても情報が古い。新しいお客さんがお店を選べない状態になっている。",
+      "飲食店検索の70%以上はスマートフォンから。スマホ対応していないサイトは、それだけで選択肢から外れてしまう。",
   },
 ];
 
@@ -70,7 +70,7 @@ export function Problem() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="section-light relative py-24 px-4 sm:px-6 dot-pattern-light">
+    <section className="section-light relative py-28 sm:py-36 px-4 sm:px-6 dot-pattern-light">
       <div className="max-w-5xl mx-auto" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

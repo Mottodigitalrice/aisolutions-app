@@ -61,7 +61,7 @@ export function Trust() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="section-light relative py-24 px-4 sm:px-6">
+    <section className="section-light relative py-28 sm:py-36 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

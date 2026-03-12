@@ -89,9 +89,9 @@ export function Hero() {
           animate="visible"
           className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-4 leading-relaxed"
         >
-          お店を見つけて、先にウェブサイトをおつくりします。
+          お店の実際の写真を使い、高級レストランサイトの
           <br className="hidden sm:block" />
-          気に入っていただけたら、そのままお使いください。
+          設計水準でウェブサイトをおつくりします。
         </motion.p>
 
         <motion.p

@@ -8,7 +8,9 @@ import { Check, ArrowRight } from "lucide-react";
 
 const includedFeatures = [
   "プロフェッショナルなウェブサイト制作（無料）",
-  "スマートフォン対応・日英バイリンガル",
+  "スマートフォン完全対応・多言語対応（日・英・中）",
+  "お店の実際の写真を使用（ストック写真不使用）",
+  "TableCheck・OMAKASE等の予約プラットフォーム連携",
   "更新作業すべて無料（メニュー・写真・営業時間・テキスト）",
   "SSL・サーバー・ドメイン管理すべて込み",
   "解約時はソースコードを全てお渡し",
@@ -32,7 +34,7 @@ export function Pricing() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="pricing" className="section-light relative py-24 px-4 sm:px-6">
+    <section id="pricing" className="section-light relative py-28 sm:py-36 px-4 sm:px-6">
       <div className="max-w-3xl mx-auto" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

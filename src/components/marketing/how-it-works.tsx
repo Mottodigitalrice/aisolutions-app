@@ -25,7 +25,7 @@ const steps: Step[] = [
     icon: PenTool,
     title: "新しいウェブサイトを無料で作成します",
     description:
-      "お店の情報をもとに、モダンなウェブサイトを作成。スマホ対応・高速表示・見やすいデザイン。まずはご覧いただき、気に入るかどうかご判断ください。制作費は無料です。",
+      "お店の実際の写真を使い、高級レストランサイトの設計パターンを取り入れたデザインで制作。スマホ対応・高速表示・予約プラットフォーム連携まで対応します。制作費は無料です。",
   },
   {
     number: 3,
@@ -69,7 +69,7 @@ export function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="section-light relative py-24 px-4 sm:px-6"
+      className="section-light relative py-28 sm:py-36 px-4 sm:px-6"
     >
       <div className="max-w-4xl mx-auto" ref={ref}>
         <motion.div
