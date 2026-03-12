@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
+import { Noto_Sans_JP, Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkClientProvider } from "@/components/providers/clerk-provider";
 import { ConvexClientProvider } from "@/components/providers/convex-provider";
@@ -10,6 +10,13 @@ const notoSansJP = Noto_Sans_JP({
   weight: ["300", "400", "500", "600", "700", "900"],
   display: "swap",
   variable: "--font-noto-sans-jp",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -47,7 +54,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja" className={notoSansJP.variable}>
+    <html lang="ja" className={`${notoSansJP.variable} ${inter.variable}`}>
       <body className={notoSansJP.className}>
         <ClerkClientProvider>
           <ConvexClientProvider>

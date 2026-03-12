@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { motion, useInView, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 const faqs = [
   {
@@ -28,11 +28,31 @@ const faqs = [
   {
     question: "なぜこんなに安いのですか？",
     answer:
-      "最新のツールと効率的な制作プロセスにより、従来の制作会社よりも大幅にコストを抑えています。質を落としているわけではなく、無駄な工程を省いているだけです。その分の価値をお客様にお返ししています。",
+      "飲食店・サロン・クリニックに特化しているため、業種ごとのノウハウが蓄積されています。専門特化だからこそ、高品質なサイトを短期間・低コストでお届けできます。",
   },
 ];
 
+const containerVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.08,
+    },
+  },
+} as const;
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 15 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.4, ease: "easeOut" as const },
+  },
+};
+
 export function FAQ() {
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: "-100px" });
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggle = (index: number) => {
@@ -40,52 +60,64 @@ export function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-20 px-4 sm:px-6 bg-white">
-      <div className="max-w-3xl mx-auto">
-        <div className="text-center mb-14">
-          <p className="text-primary font-semibold text-sm tracking-wide mb-3">
+    <section id="faq" className="section-light relative py-24 px-4 sm:px-6">
+      <div className="max-w-3xl mx-auto" ref={ref}>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
+          <p className="text-[#6366f1] font-semibold text-sm mb-3 font-[var(--font-inter)]">
             よくある質問
           </p>
-          <h2 className="text-2xl sm:text-3xl font-black text-gray-900">
+          <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">
             気になることにお答えします
           </h2>
-        </div>
+        </motion.div>
 
-        <div className="space-y-3">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          className="space-y-3"
+        >
           {faqs.map((faq, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-gray-50 rounded-xl border border-gray-100 overflow-hidden"
+              variants={itemVariants}
+              className="glass-card-light overflow-hidden"
             >
               <button
                 onClick={() => toggle(index)}
-                className="w-full text-left px-6 py-5 flex items-center justify-between gap-4 font-bold text-gray-900"
+                className="w-full text-left px-6 py-5 flex items-center justify-between gap-4 font-bold text-gray-900 hover:text-[#6366f1] transition-colors duration-200"
               >
                 <span>{faq.question}</span>
-                <ChevronDown
-                  className={cn(
-                    "w-5 h-5 text-gray-400 flex-shrink-0 transition-transform duration-300",
-                    openIndex === index && "rotate-180"
-                  )}
-                />
+                <motion.div
+                  animate={{ rotate: openIndex === index ? 180 : 0 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <ChevronDown className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                </motion.div>
               </button>
-              <div
-                className={cn(
-                  "grid transition-all duration-300 ease-in-out",
-                  openIndex === index
-                    ? "grid-rows-[1fr] opacity-100"
-                    : "grid-rows-[0fr] opacity-0"
+              <AnimatePresence>
+                {openIndex === index && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className="overflow-hidden"
+                  >
+                    <p className="text-gray-600 text-sm px-6 pb-5 leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </motion.div>
                 )}
-              >
-                <div className="overflow-hidden">
-                  <p className="text-gray-600 text-sm px-6 pb-5 leading-relaxed">
-                    {faq.answer}
-                  </p>
-                </div>
-              </div>
-            </div>
+              </AnimatePresence>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
