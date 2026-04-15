@@ -5,11 +5,11 @@ import { Footer } from "@/components/marketing/footer";
 export const metadata: Metadata = {
   title: "プライバシーポリシー",
   description:
-    "AI Solutions（運営: Multidigital合同会社）のプライバシーポリシーです。",
+    "AI Solutions（運営: 株式会社Mottodigital）のプライバシーポリシーです。",
   openGraph: {
     title: "プライバシーポリシー — AI Solutions",
     description:
-      "AI Solutions（運営: Multidigital合同会社）のプライバシーポリシーです。",
+      "AI Solutions（運営: 株式会社Mottodigital）のプライバシーポリシーです。",
     url: "https://aisolutions.jp/privacy",
   },
 };
@@ -32,7 +32,7 @@ export default function PrivacyPage() {
           </p>
 
           <p className="text-sm text-gray-700 leading-relaxed mb-12">
-            Multidigital合同会社（以下「当社」）は、AI
+            株式会社Mottodigital（以下「当社」）は、AI
             Solutionsウェブサイト制作サービス（以下「本サービス」）における個人情報の取り扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」）を定めます。
           </p>
 
@@ -226,7 +226,7 @@ export default function PrivacyPage() {
               </p>
               <div className="mt-4 bg-white rounded-xl border border-gray-200 p-5">
                 <p className="text-sm text-gray-900 font-bold mb-2">
-                  Multidigital合同会社
+                  株式会社Mottodigital
                 </p>
                 <p className="text-sm text-gray-700">
                   AI Solutions 個人情報お問い合わせ窓口

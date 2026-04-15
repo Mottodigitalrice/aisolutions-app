@@ -5,11 +5,11 @@ import { Footer } from "@/components/marketing/footer";
 export const metadata: Metadata = {
   title: "特定商取引法に基づく表記",
   description:
-    "AI Solutions（運営: Multidigital合同会社）の特定商取引法に基づく表記です。",
+    "AI Solutions（運営: 株式会社Mottodigital）の特定商取引法に基づく表記です。",
   openGraph: {
     title: "特定商取引法に基づく表記 — AI Solutions",
     description:
-      "AI Solutions（運営: Multidigital合同会社）の特定商取引法に基づく表記です。",
+      "AI Solutions（運営: 株式会社Mottodigital）の特定商取引法に基づく表記です。",
     url: "https://aisolutions.jp/tokushoho",
   },
 };
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const disclosureItems = [
   {
     label: "販売業者",
-    value: "Multidigital合同会社",
+    value: "株式会社Mottodigital",
   },
   {
     label: "代表者",

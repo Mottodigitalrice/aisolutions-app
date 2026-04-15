@@ -77,7 +77,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Multidigital合同会社
+                  株式会社Mottodigital
                 </Link>
               </p>
             </div>
