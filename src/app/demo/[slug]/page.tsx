@@ -21,7 +21,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 
-const TIDYCAL_PATH = "rice/aios-consult";
+const TIDYCAL_PATH = "rice/aisolutions-website";
 const TIDYCAL_FALLBACK_URL = `https://tidycal.com/${TIDYCAL_PATH}`;
 
 export default function DemoSitePage() {
