@@ -1,0 +1,1125 @@
+{
+  "generatedAt": "2026-05-02T01:53:00.999Z",
+  "counts": {
+    "projects": 32,
+    "skills": 85,
+    "agents": 12,
+    "commits7d": 29
+  },
+  "dailyFocus": {
+    "updated": "2026-04-16",
+    "heading": "Friday April 17 — SH + ADMIN SWEEP",
+    "oneThing": "Skill Hunters — PDF + outreach automation.",
+    "tasks": [
+      {
+        "section": "Must Do",
+        "label": "**[[Skill Hunters]]** — morning deep focus block only (separate session)",
+        "done": false
+      },
+      {
+        "section": "Must Do",
+        "label": "**Cashflow Execution Apr 9–24** — transfers before 2pm JST if still pending",
+        "done": false
+      },
+      {
+        "section": "Must Do",
+        "label": "**SEND INVOICES** — draft/send [[Ryowa House]] and [[Eden]] April invoices today",
+        "done": false
+      },
+      {
+        "section": "Must Do",
+        "label": "**Subscription audit** — decide Airtable / n8n Cloud / Gomita billing from audit data",
+        "done": false
+      },
+      {
+        "section": "Should Do",
+        "label": "**Failed withdrawal + bank balance check** — confirm next week's runway after invoices",
+        "done": false
+      },
+      {
+        "section": "Should Do",
+        "label": "**Company address change** — check delivered docs, wife handoff, and filing next steps",
+        "done": false
+      },
+      {
+        "section": "Should Do",
+        "label": "**Google Workspace** — one final unblock attempt, then forwarding fallback",
+        "done": false
+      },
+      {
+        "section": "Should Do",
+        "label": "**[[Riro Club]]** — answer the 8 open questions if energy remains",
+        "done": false
+      },
+      {
+        "section": "Quick Wins",
+        "label": "**Draft Gomita message** — resume billing only if active cloud usage justifies it",
+        "done": false
+      },
+      {
+        "section": "Quick Wins",
+        "label": "**Wife away-note** — documents arriving Apr 20-21, emergency handling, mail check",
+        "done": false
+      },
+      {
+        "section": "Quick Wins",
+        "label": "**Inbox cleanup** — one manual sweep to reduce noise before hotel week",
+        "done": false
+      }
+    ]
+  },
+  "projects": [
+    {
+      "slug": "_archive",
+      "name": "_archive",
+      "status": "UNKNOWN",
+      "owner": null,
+      "hasOverview": false,
+      "updated": null,
+      "created": null,
+      "notion_id": null,
+      "taskCount": 0,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": ".claude",
+      "name": ".claude",
+      "status": "UNKNOWN",
+      "owner": null,
+      "hasOverview": false,
+      "updated": null,
+      "created": null,
+      "notion_id": null,
+      "taskCount": 0,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "aios",
+      "name": "AIO — AI Operating System",
+      "status": "IN PROGRESS — Phase 0 COMPLETE, ready for warm lead outreach",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-04-19",
+      "created": "2026-03-07",
+      "notion_id": "1ede0cb5-63d9-8061-8571-df183897d8e2",
+      "taskCount": 40,
+      "progressCount": 30,
+      "lastProgress": "2026-05-02"
+    },
+    {
+      "slug": "content-management",
+      "name": "Content Management",
+      "status": "ONGOING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "312e0cb5-63d9-8105-926d-ee5a677bee52",
+      "taskCount": 0,
+      "progressCount": 1,
+      "lastProgress": "2026-03-18"
+    },
+    {
+      "slug": "eden",
+      "name": "EDEN - Edogawa Denryoku",
+      "status": "IN PROGRESS",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-05-02",
+      "created": "2026-03-07",
+      "notion_id": "2b9e0cb5-63d9-8070-96ae-d9dbe9c512a5",
+      "taskCount": 0,
+      "progressCount": 8,
+      "lastProgress": "2026-04-24"
+    },
+    {
+      "slug": "existing-clients",
+      "name": "Existing Clients (Small Jobs)",
+      "status": "ONGOING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "2e0e0cb5-63d9-8062-8ece-e58342e74e87",
+      "taskCount": 1,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "finance-compliance",
+      "name": "Finance and Compliance",
+      "status": "ONGOING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-04-30",
+      "created": "2026-03-07",
+      "notion_id": "2a4e0cb5-63d9-8081-beef-f77663ead192",
+      "taskCount": 26,
+      "progressCount": 5,
+      "lastProgress": "2026-05-01"
+    },
+    {
+      "slug": "fraud-risk-agent",
+      "name": "Fraud Risk AI Agent",
+      "status": "WAITING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "29de0cb5-63d9-80d7-b926-d7d570f0723a",
+      "taskCount": 2,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "hikari-agent",
+      "name": "Hikari Agent",
+      "status": "WAITING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "29de0cb5-63d9-8080-9b6c-f0a9d2fb2577",
+      "taskCount": 3,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "jitsu",
+      "name": "Jitsu Social Media Agent Dev",
+      "status": "WAITING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "1f4e0cb5-63d9-8080-ae8f-fc0a45cb638a",
+      "taskCount": 5,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "kumano",
+      "name": "Kumano — Matching Platform (交流会マッチング)",
+      "status": "IN PROGRESS",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-04-02",
+      "created": "2026-04-01",
+      "notion_id": "335e0cb5-63d9-8103-9f05-e11b6b780a90",
+      "taskCount": 37,
+      "progressCount": 4,
+      "lastProgress": "2026-04-13"
+    },
+    {
+      "slug": "line-agency-partnerships",
+      "name": "LINE Agency Partnerships",
+      "status": "INBOX",
+      "owner": null,
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "30fe0cb5-63d9-8121-bc96-fb19d1c4a212",
+      "taskCount": 1,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "line-member-search",
+      "name": "LINE Member Search Demo",
+      "status": "WAITING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "30ce0cb5-63d9-8151-afd2-c336d491a5ed",
+      "taskCount": 10,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "mij",
+      "name": "MIJ — Made in Japan Marketplace",
+      "status": "UNKNOWN",
+      "owner": null,
+      "hasOverview": true,
+      "updated": null,
+      "created": "2026-03-07",
+      "notion_id": "299e0cb5-63d9-8034-8506-c543f5c34df6",
+      "taskCount": 38,
+      "progressCount": 9,
+      "lastProgress": "2026-04-22"
+    },
+    {
+      "slug": "motto-aios-dev",
+      "name": "MOTTO AIOS Dev",
+      "status": "ONGOING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "312e0cb5-63d9-810d-bd19-cb93f5193220",
+      "taskCount": 0,
+      "progressCount": 1,
+      "lastProgress": "2026-03-19"
+    },
+    {
+      "slug": "murata-tax",
+      "name": "Murata Tax — Google Ads & GBP Strategy",
+      "status": "PLANNING",
+      "owner": null,
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "318e0cb5-63d9-8109-b21e-d05a67742b8b",
+      "taskCount": 4,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "naruse-dev",
+      "name": "Naruse Dev",
+      "status": "WAITING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-23",
+      "created": "2026-03-07",
+      "notion_id": "154e0cb5-63d9-8036-bd6e-e2d642ac82e5",
+      "taskCount": 6,
+      "progressCount": 4,
+      "lastProgress": "2026-04-11"
+    },
+    {
+      "slug": "networking",
+      "name": "Networking",
+      "status": "ONGOING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "2e0e0cb5-63d9-8079-b9b5-d28f52aac6fd",
+      "taskCount": 6,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "opensource-setup",
+      "name": "Opensource Setup",
+      "status": "IDEA",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "308e0cb5-63d9-81df-b2f9-d3919230cd51",
+      "taskCount": 1,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "palemo-holdings",
+      "name": "Palemo Holdings — AI/DX Advisory",
+      "status": "PLANNING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "313e0cb5-63d9-81b7-97f2-e64d082a8624",
+      "taskCount": 2,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "personal-brand",
+      "name": "Build Personal Brand",
+      "status": "ONGOING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "2a2e0cb5-63d9-80b5-af8c-edacfac547f3",
+      "taskCount": 8,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "piratemoney",
+      "name": "Piratemoney",
+      "status": "IN PROGRESS",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-05-02",
+      "created": "2026-03-08",
+      "notion_id": "354e0cb5-63d9-8198-8934-cc1b7f6ccfb3",
+      "taskCount": 0,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "potential-clients",
+      "name": "Potential Clients — CRM Pipeline Snapshot",
+      "status": "UNKNOWN",
+      "owner": null,
+      "hasOverview": true,
+      "updated": "2026-05-02",
+      "created": null,
+      "notion_id": null,
+      "taskCount": 0,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "re-selling-hikari",
+      "name": "Re Selling Hikari",
+      "status": "INBOX",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "2dde0cb5-63d9-80c5-9ed9-d3d2689df12a",
+      "taskCount": 1,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "riro-club",
+      "name": "Riro Club — AI Automation Retainer",
+      "status": "ACTIVE — deck v14 (24 slides, AIOS light theme, Acts 1+2+3 content-complete in standard MOTTO mode; Riro-specific skin pending)",
+      "owner": null,
+      "hasOverview": true,
+      "updated": "2026-05-02",
+      "created": null,
+      "notion_id": "1b3e0cb5-63d9-8067-a386-ebb8d2ed2a10",
+      "taskCount": 0,
+      "progressCount": 6,
+      "lastProgress": "2026-04-30"
+    },
+    {
+      "slug": "ryowa-house",
+      "name": "Ryowa House",
+      "status": "WAITING (on Lewis to send completion message to client)",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-04-30",
+      "created": "2026-03-07",
+      "notion_id": "fcda2d1d-be83-461b-b9cb-1ccb39e2e057",
+      "taskCount": 2,
+      "progressCount": 2,
+      "lastProgress": "2026-04-30"
+    },
+    {
+      "slug": "seiwakai",
+      "name": "Seiwakai (正和会) — AI/DX Consultation",
+      "status": "PLANNING",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "314e0cb5-63d9-8139-bff4-dd0ebea3ad6a",
+      "taskCount": 0,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "skill-hunters",
+      "name": "Skill Hunter — Buy Back Andrew's Time",
+      "status": "IN PROGRESS",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": null,
+      "created": "2026-03-07",
+      "notion_id": "2f2e0cb5-63d9-8042-bcd8-d51f8ce3a291",
+      "taskCount": 0,
+      "progressCount": 14,
+      "lastProgress": "2026-04-25"
+    },
+    {
+      "slug": "struggles-scriptures",
+      "name": "Struggles & Scriptures App",
+      "status": "IDEA",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "30ae0cb5-63d9-81fc-854c-d299e362008f",
+      "taskCount": 14,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "upwork",
+      "name": "Upwork — Online Job Acquisition",
+      "status": "IN PROGRESS",
+      "owner": "Lewis",
+      "hasOverview": true,
+      "updated": "2026-03-09",
+      "created": "2026-03-07",
+      "notion_id": "2ede0cb5-63d9-8034-beca-fe8f55c09ed3",
+      "taskCount": 8,
+      "progressCount": 0,
+      "lastProgress": null
+    },
+    {
+      "slug": "vps-migration-contabo",
+      "name": "VPS migration — RackNerd → Contabo Tokyo",
+      "status": "Phase 3 COMPLETE 2026-05-01 — Contabo provisioned + hardened. New box at `155.133.7.165` (`exec-vps-new` alias). Stack ready (Docker, Node 22, PM2 as motto, Caddy). Phase 4 bulk copy complete 2026-05-02 (data + n8n volume + Caddy cert cache copied; n8n boot test PASSED). **Timeline compressed: RackNerd contract ends 2026-05-05.** Cutover target Sun 2026-05-03 23:00 JST.",
+      "owner": null,
+      "hasOverview": true,
+      "updated": "2026-05-02",
+      "created": null,
+      "notion_id": "354e0cb5-63d9-8151-8620-d9d28371b8b9",
+      "taskCount": 7,
+      "progressCount": 2,
+      "lastProgress": "2026-05-02"
+    },
+    {
+      "slug": "website-outreach",
+      "name": "AI Solutions (Website Outreach)",
+      "status": "LIVE — pipeline scaled. Build cron at TARGET=80 with priority sort (jimdo-free→peraichi-free→tabelog-first). Daily cleanup cron prevents disk-full + retains only sent demos for retargeting (6-month cap). Multi-platform lead sourcing live (jimdo-free + peraichi-free in addition to tabelog-first).",
+      "owner": null,
+      "hasOverview": true,
+      "updated": "2026-04-22",
+      "created": "2026-03-07",
+      "notion_id": "30ce0cb5-63d9-8153-92a8-e4f95d745224",
+      "taskCount": 29,
+      "progressCount": 44,
+      "lastProgress": "2026-04-26"
+    }
+  ],
+  "skills": [
+    {
+      "slug": "api-design-principles",
+      "name": "api-design-principles",
+      "description": "REST and GraphQL API design principles. Use when designing new APIs or reviewing API specs."
+    },
+    {
+      "slug": "audit-report-generator",
+      "name": "audit-report-generator",
+      "description": "Generate AI audit reports from free-audit form submissions. Use on 'generate audit report', 'audit report for'."
+    },
+    {
+      "slug": "auth-implementation-patterns",
+      "name": "auth-implementation-patterns",
+      "description": "Auth patterns — JWT, OAuth2, sessions, RBAC. Use when implementing auth, securing APIs, debugging auth issues."
+    },
+    {
+      "slug": "availability",
+      "name": "availability",
+      "description": "Check availability, busy times, schedule tasks, share free slots."
+    },
+    {
+      "slug": "canvas",
+      "name": "canvas",
+      "description": "Render data as interactive HTML on self-hosted Canvas. Use for 'show me visually', 'visualize this', 'canvas this', or rich dashboard/chart requests."
+    },
+    {
+      "slug": "caveman",
+      "name": "caveman",
+      "description": "Terse token-saving mode — no filler, no narration, just results."
+    },
+    {
+      "slug": "client-mode",
+      "name": "client-mode",
+      "description": "Switch into a client's executive assistant repo and operate on their behalf. Use for 'work in [company] repo', 'switch to [company]'."
+    },
+    {
+      "slug": "cold-email",
+      "name": "cold-email",
+      "description": "B2B cold email and follow-up sequences that get replies — subject lines, openers, CTAs, personalization. Use for cold outreach, prospecting, SDR emails."
+    },
+    {
+      "slug": "context-hub",
+      "name": "context-hub",
+      "description": "Fetch up-to-date API docs via Context Hub before writing integration code."
+    },
+    {
+      "slug": "convex-best-practices",
+      "name": "convex-best-practices",
+      "description": "Convex production best practices — function organization, queries, validation, TS, Zen of Convex."
+    },
+    {
+      "slug": "convex-file-storage",
+      "name": "convex-file-storage",
+      "description": "Convex file storage — upload flows, URL serving, file metadata, generated files from actions."
+    },
+    {
+      "slug": "convex-functions",
+      "name": "convex-functions",
+      "description": "Write Convex queries, mutations, actions, HTTP actions with arg validators, error handling, internal functions."
+    },
+    {
+      "slug": "convex-quickstart",
+      "name": "convex-quickstart",
+      "description": "Initialize a new Convex backend — schema, auth, CRUD. Use when starting a Convex project or adding it to an app."
+    },
+    {
+      "slug": "convex-realtime",
+      "name": "convex-realtime",
+      "description": "Convex reactive patterns — subscriptions, optimistic updates, cache, cursor pagination."
+    },
+    {
+      "slug": "convex-schema-builder",
+      "name": "convex-schema-builder",
+      "description": "Design and generate Convex schema.ts — tables, validation, indexes, relationships. Use on 'build/design schema'."
+    },
+    {
+      "slug": "convex-schema-validator",
+      "name": "convex-schema-validator",
+      "description": "Validate Convex schemas — typing, indexes, optional fields, unions, migration strategy."
+    },
+    {
+      "slug": "convex-security-check",
+      "name": "convex-security-check",
+      "description": "Convex security audit checklist — auth, function exposure, arg validation, row access, env vars."
+    },
+    {
+      "slug": "copywriting",
+      "name": "copywriting",
+      "description": "Write/improve marketing copy for web pages (homepage, LP, pricing, feature, about, product). Use for 'write copy for', 'marketing copy', 'headline help', 'CTA copy'. Email copy → email-sequence."
+    },
+    {
+      "slug": "daily-briefing",
+      "name": "daily-briefing",
+      "description": "Morning briefing — today's tasks, meetings, priorities."
+    },
+    {
+      "slug": "docx",
+      "name": "docx",
+      "description": "Create/edit Word documents via python-docx. Use for reports, letters, .docx files."
+    },
+    {
+      "slug": "drive-audit",
+      "name": "drive-audit",
+      "description": "End-to-end Google Drive audit + cleanup — fetch all owned files, classify sharing, revoke surgically at top-of-tree, trash/archive stale content, reorganize into categorical taxonomy. Use on 'audit my drive', 'clean up drive', 'drive security review', or when a drive is known messy. Handles 10k+ file accounts without running blind revokes."
+    },
+    {
+      "slug": "elite-frontend-ux",
+      "name": "elite-frontend-ux",
+      "description": "Premium UX patterns — Japanese restaurants, luxury brands, full-bleed heroes, photo-heavy, editorial. Use for restaurant/luxury sites beyond generic frontend-design."
+    },
+    {
+      "slug": "email-sequence",
+      "name": "email-sequence",
+      "description": "Build/optimize email sequences — drip, nurture, onboarding, welcome, re-engagement, lifecycle. Use for 'email sequence', 'drip campaign', 'nurture sequence', 'email automation'."
+    },
+    {
+      "slug": "email-triage",
+      "name": "email-triage",
+      "description": "On-demand email triage for rice@mottodigital.jp. Classifies every unlabeled inbox email via Opus 4.7, applies Mailbox/* + Triage/* labels, archives noise, leaves actionable items in inbox, prints inline digest. Use on '/triage-inbox', 'triage my inbox', 'clean my inbox', 'process inbox'."
+    },
+    {
+      "slug": "execute-all-tasks",
+      "name": "execute-all-tasks",
+      "description": "Pull CLAUDE-assigned tasks across all projects, prioritize, execute in parallel."
+    },
+    {
+      "slug": "execute-project",
+      "name": "execute-project",
+      "description": "Deep-dive a project and execute all Claude-assigned tasks. Use for \"let's work on [project]\"."
+    },
+    {
+      "slug": "freee-bookkeeper",
+      "name": "freee-bookkeeper",
+      "description": "Write Freee accounting — label deals, assign partners, upload receipts, categorize, create invoices. Approval required. Use for 'update my accounting', 'attach receipt', 'I spent ¥X on', 'create invoice for', 'bill [client]', or receipt images."
+    },
+    {
+      "slug": "freee-dashboard",
+      "name": "freee-dashboard",
+      "description": "Render Freee data as interactive Canvas dashboard. Use for 'show me my finances', 'financial dashboard', 'show me P&L', 'how are my finances'."
+    },
+    {
+      "slug": "freee-weekly-report",
+      "name": "freee-weekly-report",
+      "description": "Weekly Freee financial summary. Use for 'weekly finance report', 'freee weekly', 'how did we do this week financially', or during weekly planning."
+    },
+    {
+      "slug": "frontend-design",
+      "name": "frontend-design",
+      "description": "Generic frontend design principles — typography, color, motion, layout. Use for any HTML/CSS/React frontend to prevent 'AI-slop' default styling."
+    },
+    {
+      "slug": "gbp-manager",
+      "name": "gbp-manager",
+      "description": "Manage GBP Auto-Poster for Ryowa House — status, templates, schedule, history, troubleshoot."
+    },
+    {
+      "slug": "gdpr-data-handling",
+      "name": "gdpr-data-handling",
+      "description": "GDPR-compliant data handling — consent, data subject rights, privacy by design. Use when processing EU personal data."
+    },
+    {
+      "slug": "gws",
+      "name": "gws",
+      "description": "Canonical Google Workspace ops — routing, auth, command syntax, write-gate tiers. Reference before any Gmail/Drive/Sheets/Docs/Calendar/Tasks/Slides operation via the gws CLI."
+    },
+    {
+      "slug": "hormozi-consultant",
+      "name": "hormozi-consultant",
+      "description": "Alex Hormozi principles ($100M Offers, Leads, Money Models) as a RAG-powered consultant. Use for offer design, lead gen strategy."
+    },
+    {
+      "slug": "ideas-inbox",
+      "name": "ideas-inbox",
+      "description": "Process Notion ideas inbox — triage, route to ideas/tasks, clear page. Use on 'process my ideas inbox', 'check my ideas page'."
+    },
+    {
+      "slug": "japanese-typography",
+      "name": "japanese-typography",
+      "description": "Japanese web typography — BudouX phrase-breaking, kinsoku shori, JP font/spacing. Use for any page displaying Japanese text."
+    },
+    {
+      "slug": "landing-page-builder",
+      "name": "landing-page-builder",
+      "description": "Build/audit/optimize landing pages end-to-end. Coordinates copywriting + frontend-design + optional quiz module. Use for 'build a landing page', 'LP for', 'landing page audit', 'LP conversion'."
+    },
+    {
+      "slug": "line-demo-builder",
+      "name": "line-demo-builder",
+      "description": "Build LINE AI Agent demos end-to-end. Use on 'build a LINE demo', 'LINE bot for [X]', 'new LINE agent'."
+    },
+    {
+      "slug": "linkedin-content-engine",
+      "name": "linkedin-content-engine",
+      "description": "LinkedIn content pipeline — research, topic planning, swipe analysis. Tracks as tasks in Content Management. Use on '/linkedin-engine', 'plan my content', 'linkedin idea', 'swipe this post', or shared articles/videos. For single-post drafting see linkedin-post-writer."
+    },
+    {
+      "slug": "linkedin-post-writer",
+      "name": "linkedin-post-writer",
+      "description": "Draft a single LinkedIn post in Lewis's voice from raw notes/voice dumps. Use on 'write a LinkedIn post', 'post idea', '/linkedin-post'. For research/planning see linkedin-content-engine."
+    },
+    {
+      "slug": "linkedin-reply-coach",
+      "name": "linkedin-reply-coach",
+      "description": "Analyze inbound LinkedIn replies from Lewis's Waalaxy outreach campaign and suggest 3 reply options in JP. Use when Lewis pastes a LinkedIn reply and asks for help drafting a response, or says things like \"how should I reply to this\", \"help me respond\", or shares LinkedIn message text."
+    },
+    {
+      "slug": "marketing-psychology",
+      "name": "marketing-psychology",
+      "description": "70+ mental models for marketing — cognitive bias, persuasion, behavioral science. Use for 'psychology', 'mental models', 'why people buy', 'consumer behavior'."
+    },
+    {
+      "slug": "monthly-review",
+      "name": "monthly-review",
+      "description": "First-Monday monthly review — status changes per project, Freee P&L cross-check, kill/keep decisions for stale projects, refresh monthly.md. Implements the consistency rule's monthly cadence. Use on '/monthly-review', 'monthly review', 'review the month', or first Monday of each month."
+    },
+    {
+      "slug": "n8n-claude-cron",
+      "name": "n8n-claude-cron",
+      "description": "Build n8n cron workflows that trigger Claude Code headless. Use for scheduling recurring Claude tasks (briefings, alerts, automation)."
+    },
+    {
+      "slug": "n8n-code-javascript",
+      "name": "n8n-code-javascript",
+      "description": "Write JavaScript in n8n Code nodes — $input, $json, $helpers, DateTime. Use for n8n JS Code node work."
+    },
+    {
+      "slug": "n8n-code-python",
+      "name": "n8n-code-python",
+      "description": "Write Python in n8n Code nodes — _input, _json, stdlib only. Use for n8n Python Code node work."
+    },
+    {
+      "slug": "n8n-expression-syntax",
+      "name": "n8n-expression-syntax",
+      "description": "n8n expression syntax — {{}}, $json, $node. Use when writing n8n expressions or troubleshooting expression errors."
+    },
+    {
+      "slug": "n8n-mcp-tools-expert",
+      "name": "n8n-mcp-tools-expert",
+      "description": "Guide for using n8n-mcp MCP tools (search_nodes, create/validate/activate workflow, templates). Use when calling any n8n-mcp tool."
+    },
+    {
+      "slug": "n8n-node-configuration",
+      "name": "n8n-node-configuration",
+      "description": "n8n node configuration — operations, property dependencies, required fields, get_node detail levels. Use when configuring any n8n node."
+    },
+    {
+      "slug": "n8n-validation-expert",
+      "name": "n8n-validation-expert",
+      "description": "Interpret and fix n8n validation errors/warnings. Use when validation fails, hitting false positives, or working the validation loop."
+    },
+    {
+      "slug": "n8n-workflow-builder",
+      "name": "n8n-workflow-builder",
+      "description": "Orchestrator for n8n workflow building. Use FIRST when user wants to build/create/automate with n8n. Coordinates the 7 n8n specialist skills."
+    },
+    {
+      "slug": "n8n-workflow-patterns",
+      "name": "n8n-workflow-patterns",
+      "description": "n8n workflow architectural patterns (webhook, HTTP API, DB ops, AI agent, scheduled). Use when designing workflow structure or choosing a pattern."
+    },
+    {
+      "slug": "next-best-practices",
+      "name": "next-best-practices",
+      "description": "Next.js conventions — file structure, RSC boundaries, data patterns, async APIs, route handlers, metadata."
+    },
+    {
+      "slug": "notion",
+      "name": "notion",
+      "description": "Canonical Notion ops — routing, method rules, DB IDs, property formats."
+    },
+    {
+      "slug": "pdf",
+      "name": "pdf",
+      "description": "Generate PDFs via ReportLab. Use for invoices, reports, printable documents, .pdf files."
+    },
+    {
+      "slug": "pixel-office",
+      "name": "pixel-office",
+      "description": "Boot AIOS Pixel Office for live recording — bridge server, browser, session link. Use on 'pixel office', 'pixel demo', 'visual agents'."
+    },
+    {
+      "slug": "plan-my-week",
+      "name": "plan-my-week",
+      "description": "Plan the week — gather tasks, check Google Calendar + TidyCal, build optimized schedule."
+    },
+    {
+      "slug": "pptx",
+      "name": "pptx",
+      "description": "Create/edit PowerPoint via python-pptx. Use for slides, presentations, .pptx files."
+    },
+    {
+      "slug": "produce-video",
+      "name": "produce-video",
+      "description": "Video production pipeline — transcription, translation, auto-edit, Gemini analysis, Remotion graphics, EN+JP subtitles. Use on 'produce video', '/produce-video'."
+    },
+    {
+      "slug": "project-deep-dive",
+      "name": "project-deep-dive",
+      "description": "Deep project context — Notion (tasks/resources/meetings) + all repo project files. Read-only, comprehensive. For quick status see project-simple-overview."
+    },
+    {
+      "slug": "project-simple-overview",
+      "name": "project-simple-overview",
+      "description": "Quick project status — repo files + active Notion tasks. Read-only, lightweight. For deep context see project-deep-dive."
+    },
+    {
+      "slug": "restaurant-demo-builder",
+      "name": "restaurant-demo-builder",
+      "description": "Build multilingual restaurant demo websites (6 langs, real photos, real reviews, 5 templates). Use for 'build a demo for [restaurant]', 'new demo site'."
+    },
+    {
+      "slug": "rule-audit",
+      "name": "rule-audit",
+      "description": "Sample agent-operations/ rules and check if recent sessions follow them. Use on 'rule audit', 'are we following our rules', or quarterly."
+    },
+    {
+      "slug": "sast-configuration",
+      "name": "sast-configuration",
+      "description": "Configure SAST tools for automated vuln detection. Use when setting up security scanning or DevSecOps pipelines."
+    },
+    {
+      "slug": "secrets-management",
+      "name": "secrets-management",
+      "description": "Secrets management in CI/CD — Vault, AWS Secrets Manager. Use for handling credentials, rotating secrets, securing pipelines."
+    },
+    {
+      "slug": "security-review",
+      "name": "security-review",
+      "description": "Orchestrator for security review. Detects stack (Convex, Supabase, Next.js) and coordinates security skills. Use for 'security review', 'is this secure', or before prod deploy."
+    },
+    {
+      "slug": "session-review",
+      "name": "session-review",
+      "description": "End-of-session wrap-up — progress logs, project docs, Notion sync, debrief."
+    },
+    {
+      "slug": "skill-creator",
+      "name": "skill-creator",
+      "description": "Create, update, or benchmark skills. Use for new skill creation, skill optimization, or skill eval/benchmark runs."
+    },
+    {
+      "slug": "solar-lead-finder",
+      "name": "solar-lead-finder",
+      "description": ">"
+    },
+    {
+      "slug": "supabase-postgres-best-practices",
+      "name": "supabase-postgres-best-practices",
+      "description": "Postgres performance best practices (Supabase). Use when writing/optimizing queries, schema, or DB config."
+    },
+    {
+      "slug": "supabase-security",
+      "name": "supabase-security",
+      "description": "Supabase security — auth, RLS, API, storage, realtime, edge functions, SSR, prod hardening. Use when building/auditing Supabase apps."
+    },
+    {
+      "slug": "superbrief",
+      "name": "superbrief",
+      "description": "Supercharged morning briefing — brain dump → /sync-state → confirmed ONE THING + day plan + Canvas dashboard. Replaces /daily-briefing. Always runs on fresh state because /sync-state runs in Phase 1. Use on '/superbrief', 'super brief', 'morning brief', or as the default morning entry point."
+    },
+    {
+      "slug": "sync-state",
+      "name": "sync-state",
+      "description": "Reconcile Notion ↔ repo state — verify bidirectional links, refresh focus files, classify open tasks, flag stale projects/overviews/orphans. Read-mostly; writes only after Lewis confirms or for safe repairs. Use on '/sync-state', 'sync state', before /superbrief, or whenever the system feels out of sync. Implements `agent-operations/notion-repo-consistency.md`."
+    },
+    {
+      "slug": "systematic-debugging",
+      "name": "systematic-debugging",
+      "description": "Systematic debugging flow. Use for any bug, test failure, or unexpected behavior before proposing fixes."
+    },
+    {
+      "slug": "task-triage",
+      "name": "task-triage",
+      "description": "Triage inbox items or active project tasks — inbox mode or project mode."
+    },
+    {
+      "slug": "typescript-advanced-types",
+      "name": "typescript-advanced-types",
+      "description": "TS advanced types — generics, conditional, mapped, template literal, utility. Use for complex type logic or reusable utilities."
+    },
+    {
+      "slug": "upwork-analyze",
+      "name": "upwork-analyze",
+      "description": "Score Upwork job postings vs MOTTO strengths, log to Notion."
+    },
+    {
+      "slug": "upwork-prospect",
+      "name": "upwork-prospect",
+      "description": "Upwork job prospecting via browser — search, filter, score, log to Notion."
+    },
+    {
+      "slug": "vercel-react-best-practices",
+      "name": "vercel-react-best-practices",
+      "description": "React/Next.js performance patterns from Vercel — components, data fetching, bundle optimization. Use when writing or optimizing React/Next code."
+    },
+    {
+      "slug": "voice-brain-dump",
+      "name": "voice-brain-dump",
+      "description": "Voice transcript → structured action plan → execute approved changes."
+    },
+    {
+      "slug": "vps-management",
+      "name": "vps-management",
+      "description": "Manage VPS — status, logs, PM2/Docker restart, deploy, SSH. Use on VPS/server/deploy/PM2/Docker mentions."
+    },
+    {
+      "slug": "web-perf-audit",
+      "name": "web-perf-audit",
+      "description": "Diagnose web-page perf bottlenecks in order — critical render path first, then assets, then JS. Use when Lewis says 'site is slow', 'optimize this page', 'Lighthouse score is low', or shares a PageSpeed/Lighthouse report."
+    },
+    {
+      "slug": "weekly-review",
+      "name": "weekly-review",
+      "description": "Friday afternoon weekly review — pull every project's progress logs from the week, generate ship/stuck/next per project, refresh weekly.md, surface silent projects. Implements the consistency rule's weekly cadence. Use on '/weekly-review', 'weekly review', 'review the week', or Friday afternoons."
+    },
+    {
+      "slug": "xlsx",
+      "name": "xlsx",
+      "description": "Create/edit Excel via openpyxl. Use for spreadsheets, data tables, charts, .xlsx files."
+    },
+    {
+      "slug": "youtube-transcript",
+      "name": "youtube-transcript",
+      "description": "Extract YouTube video transcripts for research. Use on 'get the transcript', 'watch this video', 'summarize this YouTube video', or pasted YouTube URLs."
+    }
+  ],
+  "agents": [
+    {
+      "slug": "cfo",
+      "name": "CFO — Chief Financial Officer",
+      "model": "Opus (analytical reasoning required)"
+    },
+    {
+      "slug": "cmo",
+      "name": "CMO — Chief Marketing Officer",
+      "model": "Opus (strategic + creative reasoning required)"
+    },
+    {
+      "slug": "content-writer",
+      "name": "content-writer",
+      "model": null
+    },
+    {
+      "slug": "coo",
+      "name": "COO — Chief Operating Officer",
+      "model": "Opus (coordination and operational reasoning required)"
+    },
+    {
+      "slug": "cpo",
+      "name": "CPO — Chief Product Officer",
+      "model": "Opus (strategic reasoning required)"
+    },
+    {
+      "slug": "cto",
+      "name": "CTO — Chief Technology Officer",
+      "model": "Opus (complex technical reasoning required)"
+    },
+    {
+      "slug": "freee-ops",
+      "name": "CRITICAL: Extract and store BOTH new tokens atomically",
+      "model": null
+    },
+    {
+      "slug": "gws-ops",
+      "name": "gws-ops",
+      "model": null
+    },
+    {
+      "slug": "n8n-builder",
+      "name": "n8n-builder",
+      "model": null
+    },
+    {
+      "slug": "notion-ops",
+      "name": "Get block children",
+      "model": null
+    },
+    {
+      "slug": "researcher",
+      "name": "researcher",
+      "model": null
+    },
+    {
+      "slug": "vps-ops",
+      "name": "PM2 status",
+      "model": null
+    }
+  ],
+  "commits": [
+    {
+      "hash": "c93223b",
+      "date": "2026-05-02T10:33:20+09:00",
+      "subject": "VPS migration Phase 4: bulk copy + n8n boot test passed; cutover compressed to 05-03"
+    },
+    {
+      "hash": "42006eb",
+      "date": "2026-05-02T09:55:08+09:00",
+      "subject": "AIOS security architecture: Standard vs Premium tier decision doc"
+    },
+    {
+      "hash": "5fb7f44",
+      "date": "2026-05-01T20:19:16+09:00",
+      "subject": "Security hardening tasks: SSH agent forwarding, Twingate evaluation, three-context security audit"
+    },
+    {
+      "hash": "b2b7b19",
+      "date": "2026-05-01T16:00:11+09:00",
+      "subject": "LINE snapshot 2026-05-01-1600"
+    },
+    {
+      "hash": "bfe19bc",
+      "date": "2026-05-01T12:40:32+09:00",
+      "subject": "VPS migration Phase 3: Contabo Tokyo provisioned + hardened"
+    },
+    {
+      "hash": "67e713d",
+      "date": "2026-05-01T11:35:08+09:00",
+      "subject": "Working files: AI dispatch optimizer PRD Phase1, networking referral form, solar leads scan (Higashikomatsugawa 3)"
+    },
+    {
+      "hash": "57437d0",
+      "date": "2026-05-01T11:35:03+09:00",
+      "subject": "Reference + ideas: Make.com scenarios automation patterns library, AI workpod office idea"
+    },
+    {
+      "hash": "e180cf7",
+      "date": "2026-05-01T11:34:59+09:00",
+      "subject": "New project scaffolds: potential-clients tracker + VPS migration to Contabo"
+    },
+    {
+      "hash": "5ba5c7c",
+      "date": "2026-05-01T11:34:55+09:00",
+      "subject": "Email triage: priority humans + memory updates, 04-28 triage log, runner script"
+    },
+    {
+      "hash": "60d669f",
+      "date": "2026-05-01T11:34:34+09:00",
+      "subject": "Riro Club: standard deck v12 + 2026-04-28 / 04-30 progress logs"
+    },
+    {
+      "hash": "e7ccf4b",
+      "date": "2026-05-01T11:34:31+09:00",
+      "subject": "Website outreach: hero-tagline bug + hot-pool starvation audits, storage migration plan, lead backlogs refreshed"
+    },
+    {
+      "hash": "b1d153c",
+      "date": "2026-05-01T11:26:44+09:00",
+      "subject": "AIOS billing: LWT onboarded (INV-130) + TJ payment_date fix (INV-129)"
+    },
+    {
+      "hash": "b83990c",
+      "date": "2026-05-01T11:20:36+09:00",
+      "subject": "本店移転: 登記中 confirmed + DIY 異動届 pack (post-Murata)"
+    },
+    {
+      "hash": "473c8a4",
+      "date": "2026-05-01T11:14:27+09:00",
+      "subject": "freee: unlock Invoice API write workflow + document gotchas"
+    },
+    {
+      "hash": "6a10fee",
+      "date": "2026-04-30T23:16:05+09:00",
+      "subject": "gws skill: document inbox binding (gws=rice@mottodigital.jp, MCP=ricelewis@gmail.com)"
+    },
+    {
+      "hash": "d392cf1",
+      "date": "2026-04-30T23:04:36+09:00",
+      "subject": "Airtable Business→Free downgrade prep: CSV backup of all 5 bases + n8n workflow map"
+    },
+    {
+      "hash": "0c40539",
+      "date": "2026-04-30T16:00:13+09:00",
+      "subject": "LINE snapshot 2026-04-30-1600"
+    },
+    {
+      "hash": "643a292",
+      "date": "2026-04-30T12:19:18+09:00",
+      "subject": "May 2026 cashflow plan: locked + Notion deployed + May 17 check-in agent scheduled"
+    },
+    {
+      "hash": "95d35ca",
+      "date": "2026-04-30T12:15:40+09:00",
+      "subject": "Ryowa: log Jepto→bespoke GBP pipeline feasibility review"
+    },
+    {
+      "hash": "b179ece",
+      "date": "2026-04-29T16:00:16+09:00",
+      "subject": "LINE snapshot 2026-04-29-1600"
+    },
+    {
+      "hash": "e7ef554",
+      "date": "2026-04-28T16:00:10+09:00",
+      "subject": "LINE snapshot 2026-04-28-1600"
+    },
+    {
+      "hash": "224203a",
+      "date": "2026-04-28T13:38:53+09:00",
+      "subject": "Eden security deck v2: trimmed 14-slide bilingual presentation"
+    },
+    {
+      "hash": "91b0d29",
+      "date": "2026-04-27T16:00:15+09:00",
+      "subject": "LINE snapshot 2026-04-27-1600"
+    },
+    {
+      "hash": "74fec02",
+      "date": "2026-04-26T16:00:17+09:00",
+      "subject": "LINE snapshot 2026-04-26-1600"
+    },
+    {
+      "hash": "83e9a8c",
+      "date": "2026-04-25T16:00:13+09:00",
+      "subject": "LINE snapshot 2026-04-25-1600"
+    },
+    {
+      "hash": "51f415a",
+      "date": "2026-04-27T11:40:02+09:00",
+      "subject": "Riro deck v13: AIOS light-theme re-skin + native journey slides"
+    },
+    {
+      "hash": "075fb56",
+      "date": "2026-04-26T22:49:44+09:00",
+      "subject": "SH outreach: 793 prefs blast + onsen-3 misasa + cron plan"
+    },
+    {
+      "hash": "96ad2c5",
+      "date": "2026-04-25T13:41:48+09:00",
+      "subject": "Session 33 wrap-up: jimdo overnight + peraichi expansion + cron scale-up + retention overhaul"
+    },
+    {
+      "hash": "316ddb2",
+      "date": "2026-04-25T13:06:31+09:00",
+      "subject": "Document AIOS curriculum draft inputs"
+    }
+  ]
+}

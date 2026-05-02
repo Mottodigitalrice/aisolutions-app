@@ -7,6 +7,8 @@
     "dev:all": "concurrently \"npm run dev\" \"npx convex dev\"",
     "dev:share": "concurrently \"npm run dev\" \"npx convex dev\" \"ngrok http 3000\"",
     "dev:domain": "concurrently \"npm run dev\" \"npx convex dev\" \"ngrok http 3000 --domain=$NGROK_DOMAIN\"",
+    "snapshot": "node scripts/generate-repo-snapshot.mjs",
+    "prebuild": "node scripts/generate-repo-snapshot.mjs || true",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

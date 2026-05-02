@@ -1,0 +1,178 @@
+/* AIOS dashboard theme — editorial dark with bento substrate.
+   Scoped to .aios-shell so it never leaks into the public marketing site. */
+
+.aios-shell {
+  --aios-bg: #0a0a0b;
+  --aios-surface: #111114;
+  --aios-surface-2: #16161a;
+  --aios-border: rgba(255, 255, 255, 0.08);
+  --aios-border-strong: rgba(255, 255, 255, 0.14);
+  --aios-text: #ededee;
+  --aios-text-dim: #8a8a93;
+  --aios-text-faint: #5a5a63;
+  --aios-accent: #f0a04b;
+  --aios-green: #4ade80;
+  --aios-amber: #facc15;
+  --aios-red: #f87171;
+  --aios-blue: #60a5fa;
+  --aios-violet: #a78bfa;
+  --aios-cyan: #22d3ee;
+
+  background: var(--aios-bg);
+  color: var(--aios-text);
+  min-height: 100vh;
+  font-feature-settings: "ss01", "cv11";
+}
+
+.aios-shell *,
+.aios-shell *::before,
+.aios-shell *::after {
+  border-color: var(--aios-border);
+}
+
+.aios-shell .mono {
+  font-family: var(--font-mono, "JetBrains Mono"), "JetBrains Mono", ui-monospace,
+    SFMono-Regular, Menlo, monospace;
+}
+
+.aios-shell .display {
+  font-family: var(--font-display, "Inter"), "Inter", system-ui, sans-serif;
+}
+
+/* Hairline cards */
+.aios-card {
+  background: var(--aios-surface);
+  border: 1px solid var(--aios-border);
+  border-radius: 12px;
+}
+
+.aios-card-flat {
+  background: transparent;
+  border: 1px solid var(--aios-border);
+  border-radius: 12px;
+}
+
+.aios-card-strong {
+  background: var(--aios-surface-2);
+  border: 1px solid var(--aios-border-strong);
+  border-radius: 12px;
+}
+
+/* Status dot with soft glow */
+.aios-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.aios-dot--ok {
+  background: var(--aios-green);
+  box-shadow: 0 0 8px rgba(74, 222, 128, 0.65);
+}
+
+.aios-dot--warn {
+  background: var(--aios-amber);
+  box-shadow: 0 0 8px rgba(250, 204, 21, 0.55);
+}
+
+.aios-dot--err {
+  background: var(--aios-red);
+  box-shadow: 0 0 8px rgba(248, 113, 113, 0.6);
+}
+
+.aios-dot--idle {
+  background: var(--aios-text-faint);
+  box-shadow: none;
+}
+
+/* Subtle pulse for "live" indicators */
+@keyframes aios-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(0.85); }
+}
+
+.aios-dot--pulse {
+  animation: aios-pulse 2.4s ease-in-out infinite;
+}
+
+/* Numeric ribbon */
+.aios-num {
+  font-family: var(--font-mono, "JetBrains Mono"), "JetBrains Mono", ui-monospace,
+    SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* Section label */
+.aios-eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--aios-text-dim);
+  font-weight: 500;
+}
+
+.aios-link {
+  color: var(--aios-text);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.aios-link:hover {
+  border-color: var(--aios-accent);
+}
+
+/* Scrollbars */
+.aios-shell *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.aios-shell *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.aios-shell *::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+
+.aios-shell *::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Activity feed slide-in */
+@keyframes aios-slide-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.aios-feed-row {
+  animation: aios-slide-in 0.4s ease-out;
+}
+
+/* Subtle scan line for "live" panels */
+.aios-live-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.aios-live-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(240, 160, 75, 0.04) 50%,
+    transparent
+  );
+  pointer-events: none;
+  animation: aios-scan 6s linear infinite;
+}
+
+@keyframes aios-scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
